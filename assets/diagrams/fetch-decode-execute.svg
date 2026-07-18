@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" role="img" aria-labelledby="title desc">
+  <title id="title">Fetch decode execute cycle</title><desc id="desc">Instructions move from main memory into the CPU, are decoded by the control unit and executed using CPU components, then the cycle repeats.</desc>
+  <rect width="900" height="460" rx="28" fill="#f4f8fb"/>
+  <g font-family="Segoe UI, sans-serif" text-anchor="middle">
+    <rect x="60" y="155" width="210" height="150" rx="18" fill="#fff0bf" stroke="#f0b429" stroke-width="4"/><text x="165" y="205" font-size="25" font-weight="700" fill="#10253f">MAIN MEMORY</text><text x="165" y="242" font-size="18" fill="#10253f">instructions</text><text x="165" y="270" font-size="18" fill="#10253f">and data</text>
+    <circle cx="430" cy="105" r="82" fill="#10253f"/><text x="430" y="98" fill="#f0b429" font-size="27" font-weight="700">1 · FETCH</text><text x="430" y="130" fill="white" font-size="17">retrieve next instruction</text>
+    <circle cx="690" cy="230" r="82" fill="#007f78"/><text x="690" y="223" fill="white" font-size="27" font-weight="700">2 · DECODE</text><text x="690" y="255" fill="white" font-size="17">work out its meaning</text>
+    <circle cx="430" cy="355" r="82" fill="#173b62"/><text x="430" y="348" fill="#f0b429" font-size="27" font-weight="700">3 · EXECUTE</text><text x="430" y="380" fill="white" font-size="17">carry it out</text>
+    <path d="M270 185C315 130 340 115 350 112" fill="none" stroke="#007f78" stroke-width="9" marker-end="url(#a)"/><text x="300" y="130" fill="#10253f" font-size="16">bus</text>
+    <path d="M505 135c53 18 85 35 111 57" fill="none" stroke="#007f78" stroke-width="9" marker-end="url(#a)"/>
+    <path d="M621 275c-35 31-68 48-111 62" fill="none" stroke="#007f78" stroke-width="9" marker-end="url(#a)"/>
+    <path d="M358 327c-52-29-83-54-104-76" fill="none" stroke="#007f78" stroke-width="9" marker-end="url(#a)"/>
+    <text x="790" y="365" fill="#10253f" font-size="16">The CPU repeats this cycle continuously.</text>
+  </g>
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0l8 4-8 4z" fill="#007f78"/></marker></defs>
+</svg>

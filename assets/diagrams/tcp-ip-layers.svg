@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+  <title id="title">Four-layer TCP/IP model</title><desc id="desc">Application protocols HTTPS SMTP and IMAP pass data to TCP at transport, IP at internet, and network interface hardware at link.</desc>
+  <rect width="900" height="430" rx="28" fill="#f4f8fb"/>
+  <g font-family="Segoe UI, sans-serif">
+    <rect x="80" y="45" width="740" height="70" rx="16" fill="#10253f"/><text x="110" y="75" fill="#f0b429" font-size="24" font-weight="700">APPLICATION</text><text x="370" y="76" fill="white" font-size="21">HTTP · HTTPS · SMTP · IMAP</text><text x="110" y="101" fill="white" font-size="15">Network applications create and interpret messages</text>
+    <path d="M450 115v30" stroke="#007f78" stroke-width="8" marker-end="url(#a)"/>
+    <rect x="80" y="145" width="740" height="65" rx="16" fill="#d8f1ec" stroke="#007f78" stroke-width="3"/><text x="110" y="177" fill="#10253f" font-size="24" font-weight="700">TRANSPORT</text><text x="370" y="177" fill="#10253f" font-size="21">TCP · communication and delivery</text><text x="110" y="199" fill="#10253f" font-size="15">Hosts agree communication settings</text>
+    <path d="M450 210v30" stroke="#007f78" stroke-width="8" marker-end="url(#a)"/>
+    <rect x="80" y="240" width="740" height="65" rx="16" fill="#fff0bf" stroke="#f0b429" stroke-width="3"/><text x="110" y="272" fill="#10253f" font-size="24" font-weight="700">INTERNET</text><text x="370" y="272" fill="#10253f" font-size="21">IP · addressing, packaging and routing</text><text x="110" y="294" fill="#10253f" font-size="15">Packets travel between networks</text>
+    <path d="M450 305v30" stroke="#007f78" stroke-width="8" marker-end="url(#a)"/>
+    <rect x="80" y="335" width="740" height="65" rx="16" fill="#e8eef5" stroke="#173b62" stroke-width="3"/><text x="110" y="367" fill="#10253f" font-size="24" font-weight="700">LINK</text><text x="370" y="367" fill="#10253f" font-size="21">NIC · drivers · frames and signals</text><text x="110" y="389" fill="#10253f" font-size="15">The local network hardware moves data</text>
+  </g>
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0l8 4-8 4z" fill="#007f78"/></marker></defs>
+</svg>

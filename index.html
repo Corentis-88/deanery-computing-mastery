@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10253f">
+  <meta name="description" content="A guided Deanery KS3 and updated AQA 8525 Computer Science teacher mastery course.">
+  <title>Computing Teacher Mastery</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/diagrams/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#/" aria-label="Computing Teacher Mastery home">
+      <span class="brand-mark" aria-hidden="true">CT</span>
+      <span><strong>Computing Teacher Mastery</strong><small>Deanery KS3 · AQA 8525 (2027 onwards)</small></span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#/">Course</a>
+      <a href="#/progress">Progress</a>
+      <a href="#/toolkit">Toolkit</a>
+      <a href="#/sources">Sources</a>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <div id="app" aria-live="polite"></div>
+  </main>
+
+  <footer>
+    <p>Built as a subject-knowledge course, not an exam-cramming guide. Progress is stored only in this browser.</p>
+    <p><a href="#/sources">Curriculum sources and scope</a> · <button class="link-button" id="install-app" hidden>Install this course</button></p>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <script src="data/core.js"></script>
+  <script src="data/ks3.js"></script>
+  <script src="data/ks4.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+Case,Incident,Asset,Vulnerability,Prompt
+1,A reused password appears in a breach,Staff cloud account,Password reuse,Identify preventive and recovery controls
+2,A visitor reads a PIN over a pupil's shoulder,Payment card PIN,Exposed entry,Classify the social engineering technique
+3,A laptop has missed security updates for months,School laptop,Outdated software,Explain risk and a proportionate control
+4,A fake technician asks for a login code,Staff account,Trust in claimed authority,Name the technique and safe response
+5,An unknown USB drive is found in a corridor,Networked workstation,Untrusted removable media,Design a safe reporting routine
+6,A file disguised as a timetable installs monitoring software,Personal data,Unverified download,Classify delivery and behaviour
+7,A shared folder gives every pupil edit access,Course materials,Misconfigured access rights,Apply least privilege
+8,A familiar web address opens a fake login page,Credentials,Traffic redirection,Identify the threat
+9,Automated scripts create hundreds of accounts,Online service,Unrestricted automated signup,Select a relevant control
+10,A stolen phone opens with only a four-digit PIN,Mobile data,Weak authentication,Propose layered controls
+11,A malicious attachment modifies other files,Stored documents,Unsafe execution,Classify the malware
+12,A valid staff account downloads unusual volumes of data,Confidential records,Insider access,Choose detective and preventive controls

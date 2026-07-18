@@ -1,0 +1,9 @@
+{
+  "name": "Computing Teacher Mastery",
+  "short_name": "CT Mastery",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f6f4ee",
+  "theme_color": "#10253f",
+  "icons": [{ "src": "assets/diagrams/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
