@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-GB">
+<html lang="en-GB" class="auth-pending">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,6 +11,23 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <section class="auth-gate" id="auth-gate" role="dialog" aria-modal="true" aria-labelledby="auth-title">
+    <div class="auth-card">
+      <span class="brand-mark auth-mark" aria-hidden="true">CT</span>
+      <p class="eyebrow">Private study access</p>
+      <h1 id="auth-title">Computing Teacher Mastery</h1>
+      <p class="lede">Enter the course password to continue.</p>
+      <form id="auth-form">
+        <label for="auth-password"><strong>Password</strong></label>
+        <div class="auth-controls">
+          <input id="auth-password" name="password" type="password" autocomplete="current-password" required>
+          <button class="button" type="submit">Open course</button>
+        </div>
+        <p class="auth-message" id="auth-message" role="alert" hidden>That password is not correct. Please try again.</p>
+      </form>
+      <noscript><p class="auth-message">JavaScript must be enabled to open this course.</p></noscript>
+    </div>
+  </section>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <a class="brand" href="#/" aria-label="Computing Teacher Mastery home">
@@ -35,9 +52,6 @@
   </footer>
 
   <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
-  <script src="data/core.js"></script>
-  <script src="data/ks3.js"></script>
-  <script src="data/ks4.js"></script>
-  <script src="app.js"></script>
+  <script src="auth.js"></script>
 </body>
 </html>
