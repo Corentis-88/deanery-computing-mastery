@@ -275,6 +275,10 @@
     event.preventDefault(); deferredInstall = event; const button = document.getElementById("install-app"); button.hidden = false;
     button.addEventListener("click", async () => { deferredInstall.prompt(); await deferredInstall.userChoice; deferredInstall = null; button.hidden = true; }, { once: true });
   });
-  if ("serviceWorker" in navigator && location.protocol.startsWith("http")) window.addEventListener("load", () => navigator.serviceWorker.register("sw.js"));
+  if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
+    const registerWorker = () => navigator.serviceWorker.register("sw.js");
+    if (document.readyState === "complete") registerWorker();
+    else window.addEventListener("load", registerWorker, { once: true });
+  }
   render();
 })();

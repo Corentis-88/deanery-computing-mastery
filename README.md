@@ -13,6 +13,10 @@ A complete, sequential subject-knowledge course for a teacher moving from OCR to
 
 This is a learning course and subject-knowledge mastery system, not a paper-technique or exam-cramming guide.
 
+## Website access screen
+
+The published static site presents a client-side password screen before the course application loads. Authentication lasts for the current browser tab. Because GitHub Pages and this repository are public, this is a convenience barrier against casual access, not server-enforced security; the source files remain publicly available.
+
 ## Run locally
 
 The simplest route is to open `index.html`. For full offline/PWA behaviour, run a local server:
